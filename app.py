@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session, logging, url_for, redirect, flash
+from flask import Flask, render_template, request, session, url_for, redirect, flash
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 
